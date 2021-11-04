@@ -1,0 +1,94 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+.imagen{
+    display: block;
+    text-align: center;
+    margin:auto;
+    width: 20%;
+}
+
+.titulos{
+    color: #5666AD;
+    background-color:#EFF4FF;
+    font-family: Balsamiq Sans;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.8%;
+    font-size: larger;
+
+}
+/* #D3DCEF */
+
+#borde-encabezado{
+    background-color:#D3DCEF;
+    color: green;
+
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.encabezado{
+    color: #5666AD;
+    background-color:#EFF4FF;
+    font-family: Balsamiq Sans;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    padding: 0.4%;
+    
+}
+#titulo-principal{
+    padding: 0.5%;
+    text-align: center;
+    font-family: Balsamiq Sans;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.datos{
+    font-weight: bold;
+    line-height: 25px;
+    font-weight: 300;
+    color:#5666AD;
+    font-family: Balsamiq Sans;
+}
+
+.fechas{
+    font-weight: bold;
+    line-height: 25px;
+    color:#5666AD;
+    font-family: Balsamiq Sans;
+    font-weight: 300;
+}
+.sin-puntos{
+    list-style-type: none;
+    margin-left:-1%
+}
+
+.valores{
+    line-height: 10px;
+    margin-left:10px;
+    font-family: Balsamiq Sans;
+    font-weight: 200;
+}
+
+.tabulado{
+    margin-left:90px;
+    font-family: Balsamiq Sans;
+    
+}
+.pie{
+    color: #EFF4FF;
+    background-color: #5666AD;    
+    font-family: Balsamiq Sans; 
+    padding: 0.5%;    
+    display:flex;    
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+i {
+    color:white;
+    font-size:25px;
+    margin-left:20px;
+}
