@@ -1,205 +1,107 @@
 
-
+/* Fuente Roboto de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-header p{    
-  
-    /* Dimensiones */     
-    position: absolute;
-    box-sizing: border-box;
-    width: 1024px;
-    height: 38px;
-    left: 0px;
-    top: 0px;
-    margin:0;    
-
-    /* Apariencia */
-    background-color: #1CD1B0;
-    border: solid 10px #1CD1B0; 
-
-    /* Letra */
-    font-size: 15px;
-    font-family: Roboto, sans-serif;     
+*{
+    margin:0
 }
-
-header h1{
-
-    /* Dimensiones */  
-    position: absolute;
-    box-sizing: border-box;
-    width: 1024px;
-    height: 101px;
-    left: 0px;
-    top: 38px;
-    margin:0;     
-
-    /* Apariencia */    
-    background-color: #00669F;
-    border: solid 25px  #00669F;
-    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-
-    /* Letra */
-    font-size: 40px;
+.descuentos{
+    background-color:#1CD1B0;
     font-family: Roboto, sans-serif;
-    font-weight: normal;
+    font-size: 15px;
+    padding:10px
+
+}
+
+.heroes{
+    background-color:#00669F;
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 15px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    position:sticky;
+    top:0px;
+    z-index:1;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+section{
+    border-radius: 16px 16px 0px 0px;
+    width: 300px;
+    height: 529px;
+    margin: 100px 10px ;
+    font-family: Roboto, sans-serif;
+    text-align:center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
 }
 
+.imagenes{
+    position:relative;
+    text-align:center;  
+    display:flex;
+    justify-content:center;  
+    width: 300px;
+    height: 193px;
+    
+}
 
-section p{
-    position: absolute;
-    width: 267px;
-    height: 113px;
-    left: 48px;
-    top: 604px;
-    
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    
-    color: #333333;    
+.fondoBatman{
+    background-image: url("../img/batmanFondo.png");
 }
 
 .fondoHarley{
-    z-index:9;
-    position: relative;
-    background-color: #213453;
-    width: 300px;
-    height: 193px;
-
-
-    background-image: url("../img/harleyFondo.png"); 
-    border-radius: 16px 16px 0px 0px;
-}
-
-.fondo{
-    z-index:9;
-    position: relative;
-    background-color: #213453;
-    width: 300px;
-    height: 193px;
-    background-image: url("../img/batmanFondo.png"); 
-    border-radius: 16px 16px 0px 0px;
-}
-
-.fondoBatman2{
-    z-index:9;
-    position: relative;
-    background-color: #213453;
-    width: 300px;
-    height: 193px;
-    background-image: url("../img/batmanFondo.png"); 
-    border-radius: 16px 16px 0px 0px;
+    background-image: url("../img/harleyFondo.png");
 }
 
 .corazon{
-    z-index: 10;
-    position: absolute;
-    left: 20px;
-    top: 20px;
+    position:absolute;
+    top:20px;
+    left:20px;
+    color:#CC2424;
+    font-size: 25px;  
 }
 
-.batman{
-    position: absolute;
-    width: 300px;
-    height: 535px;
-    left: 32px;
-    top: 293px; 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+.nombre-heroe{    
+    font-size:25px;
+    text-align:center;
+    font-weight: 400;
+    margin-top:80px;
 }
 
-.harley{
-    position: absolute;
-    width: 300px;
-    height: 535px;
-    left: 362px;
-    top: 293px; 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+.descripcion{    
+    font-size:16px;
+    text-align: left; 
+    padding: 10px 30px;       
 }
 
-.batman2{
-    position: absolute;
-    width: 300px;
-    height: 535px;
-    left: 692px;
-    top: 293px; 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-}
-
-.foto{
-    z-index: 9;
-    position: absolute;
-    left: 90px;
-    top: 128px;
+.foto{    
     border-radius: 60px 60px 60px 60px;
-    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.1);
+    position:absolute;
+    top:130px;
+
 }
 
-h3{
-    z-index: 8;
-    position: absolute;
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 35px;
-    left: 89px;
-    top: 240px;
-    text-align: center;   
-    text-transform: uppercase;
-}
-
-section p{    
-    z-index: 8;
-    box-sizing: border-box;    
-    position: absolute;
-    width: 235px;
-    height: 113px;
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    left: 40px;
-    top: 300px;
-    text-align: left;   
-}
-
-section span{
-    z-index: 8;
-    box-sizing: border-box;    
-    position: absolute;
-    width: 128px;
-    height: 48px;
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    left: 85px;
-    top: 460px;
-    text-align: center;    
+button{
+    text-align:center;
     background-color: #00669F;
-    color:white;
-    border: solid 14px #00669F 
+    color:#FFFFFF;
+    border:none;
+    padding:15px 30px;
+    margin-top:10px;
 }
 
 footer{
-    /* Dimensiones */  
-    position: absolute;
-    box-sizing: border-box;
-    width: 1024px;
-    height: 51px;
-    left: 0px;
-    top: 972px;
-    margin:0;     
-
-    /* Apariencia */    
-    background-color: #00669F;
-    border: solid 3px  #00669F;
-    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-
-    /* Letra */
-    font-size: 16px;
+    background-color:#00669F;
     font-family: Roboto, sans-serif;
-    font-weight: normal; 
-    color:white
+    font-weight: 400;
+    font-size:16px;
+    padding:20px 15px;
+    color:#FFFFFF;
 }
